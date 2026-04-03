@@ -44,10 +44,10 @@ import { createServer } from "http";
 import { Server } from "socket.io";
 import dotenv from "dotenv";
 import cors from "cors";
-import adminRoutes from "./routes/admin.routes.js";
-import connectDB from "./config/db.config.js";
-import authRoutes from "./routes/auth.routes.js";
-import socketHandler from "./socket/socket.handler.js";
+import adminRoutes from "./src/routes/admin.routes.js";
+import connectDB from "./src/config/db.config.js";
+import authRoutes from "./src/routes/auth.routes.js";
+import socketHandler from "./src/socket/socket.handler.js";
 
 dotenv.config();
 
